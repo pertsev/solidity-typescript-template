@@ -7,7 +7,7 @@ install:
 
 script:
   - touch .infura
-  - touch .sercet
+  - touch .secret
   - yarn install
   - yarn coverage
   - codecov
