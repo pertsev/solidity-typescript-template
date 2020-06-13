@@ -6,6 +6,8 @@ install:
   - yarn global add codecov
 
 script:
+  - touch .infura
+  - touch .sercet
   - yarn install
   - yarn coverage
   - codecov
